@@ -1,0 +1,42 @@
+<svg width="500" height="250">
+  <rect x="0" y="0" width="500" height="250" fill="#fff" />
+  
+  <g>
+    <rect x="30" y="30" width="80" height="40" rx="10" ry="10" fill="#6c757d" />
+    <text x="45" y="55" fill="#fff" font-size="18" font-weight="bold">1</text>
+  </g>
+  
+  <g>
+    <rect x="130" y="30" width="80" height="40" rx="10" ry="10" fill="#6c757d" />
+    <text x="145" y="55" fill="#fff" font-size="18" font-weight="bold">2</text>
+  </g>
+  
+  <g>
+    <rect x="230" y="30" width="80" height="40" rx="10" ry="10" fill="#6c757d" />
+    <text x="245" y="55" fill="#fff" font-size="18" font-weight="bold">3</text>
+  </g>
+  
+  <g>
+    <rect x="330" y="30" width="80" height="40" rx="10" ry="10" fill="#6c757d" />
+    <text x="345" y="55" fill="#fff" font-size="18" font-weight="bold">4</text>
+  </g>
+  
+  <g>
+    <rect x="430" y="30" width="80" height="40" rx="10" ry="10" fill="#6c757d" />
+    <text x="445" y="55" fill="#fff" font-size="18" font-weight="bold">5</text>
+  </g>
+  
+  <line x1="110" y1="50" x2="130" y2="50" stroke="#000" stroke-width="2" />
+  <line x1="210" y1="50" x2="230" y2="50" stroke="#000" stroke-width="2" />
+  <line x1="310" y1="50" x2="330" y2="50" stroke="#000" stroke-width="2" />
+  <line x1="410" y1="50" x2="430" y2="50" stroke="#000" stroke-width="2" />
+  
+  <line x1="20" y1="50" x2="30" y2="50" stroke="#000" stroke-width="2" />
+  <line x1="110" y1="50" x2="120" y2="50" stroke="#000" stroke-width="2" />
+  <line x1="210" y1="50" x2="220" y2="50" stroke="#000" stroke-width="2" />
+  <line x1="310" y1="50" x2="320" y2="50" stroke="#000" stroke-width="2" />
+  <line x1="410" y1="50" x2="420" y2="50" stroke="#000" stroke-width="2" />
+  
+  <g>
+    <rect x="130" y="130" width="80" height="40" rx="10" ry="10" fill="#6c757d" />
+    <text x

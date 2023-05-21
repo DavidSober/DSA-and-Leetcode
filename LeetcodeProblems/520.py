@@ -1,4 +1,4 @@
-# 10% in time and 20% in space
+# 40% in time and 20% in space
 
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:

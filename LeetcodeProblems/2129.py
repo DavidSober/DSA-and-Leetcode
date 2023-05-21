@@ -8,7 +8,5 @@ class Solution:
                 new[i] = new[i].lower()
             else:
                 new[i] = new[i].capitalize()
-        ret = ""
-        for word in new:
-            ret += word + " "
-        return ret[:len(ret) - 1]
+        
+        return " ".join(new)

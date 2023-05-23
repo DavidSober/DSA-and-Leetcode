@@ -1,8 +1,9 @@
 # here is a faster approach. we first sort the list by the first element 
 # then we check the edges and make sure they are in the right order
+# beats 60% in time and 44% in space
 class Solution:
     def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
-        intervals.sort(key = lambda x: x[0])
+        intervals.sort()
         for i in range(len(intervals) - 1):
             if intervals[i][1] > intervals[i + 1][0]:
                 return False

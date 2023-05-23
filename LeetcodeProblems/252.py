@@ -1,3 +1,13 @@
+# here is a faster approach. we first sort the list by the first element 
+# then we check the edges and make sure they are in the right order
+class Solution:
+    def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
+        intervals.sort(key = lambda x: x[0])
+        for i in range(len(intervals) - 1):
+            if intervals[i][1] > intervals[i + 1][0]:
+                return False
+        return True 
+
 # beats 5.7% in time and 30% in space
 # brute force basically but it is ez
 

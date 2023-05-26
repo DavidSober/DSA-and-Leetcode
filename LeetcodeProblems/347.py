@@ -1,5 +1,7 @@
 # heap solution, heapq.nlargest is the same as sorted(key=lambda x)[slice]
 # beats 68% in time and 69% in space
+# O(nlogk) in time and O(N + k)
+
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         F = Counter(nums)

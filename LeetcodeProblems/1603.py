@@ -1,3 +1,5 @@
+# beats 91% in time and 38% in space
+
 class ParkingSystem:
 
     def __init__(self, big: int, medium: int, small: int):

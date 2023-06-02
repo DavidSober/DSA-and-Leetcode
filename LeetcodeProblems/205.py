@@ -10,5 +10,5 @@ class Solution:
         new = ""
         for c in s:
             if c in mp:
-                new += amp[c]
+                new += mp[c]
         return new == t

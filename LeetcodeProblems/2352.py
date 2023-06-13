@@ -1,3 +1,17 @@
+# here is my revised approach. it uses a fast and simple method to get access to cols
+# beats 61% in time and 82% in space
+
+class Solution:
+    def equalPairs(self, grid: List[List[int]]) -> int:
+        RF = Counter()
+        rows = [tuple(row) for row in grid]
+        for row in rows:
+          RF[row] += 1
+        pairs = 0
+        for col in zip(*grid):
+            pairs += RF[col]
+        return pairs
+
 # this is one of my older solutions from when i was new to DSA
 # brute force breats 16% in time and 99% in space
 

@@ -1,4 +1,4 @@
-# beats 72% in time and 16% in space
+# beats 85% in time and 51% in space
 
 class Solution:
     def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:

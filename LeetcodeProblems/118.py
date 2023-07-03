@@ -13,10 +13,9 @@ class Solution:
             cache[(row, col)] = result
             return result
         ans = []
-        for row in range(numRows - 1, 0, -1): # numRows -1 to convert to 0 index, we go backwards here but could go forwards
+        for row in range(numRows): 
             temp = []
             for col in range(row + 1): # + 1convert to 1 index num of cols
                 temp.append(Pnum(row, col))
             ans.append(temp)
-        ans.append([1])
-        return ans[::-1]
+        return ans

@@ -1,2 +1,2 @@
 # Algo-tests-
-for foundation to leetcode
+DSA practice 

@@ -1,3 +1,5 @@
+# beats 99.33% in time and 8% in space
+
 class Solution:
     def minReorder(self, n: int, connections: List[List[int]]) -> int:
         Ngraph = defaultdict(list)

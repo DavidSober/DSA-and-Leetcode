@@ -1,4 +1,4 @@
-# beats 94% in time and 8% in space
+# beats 95% in time and 15% in space
 
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:

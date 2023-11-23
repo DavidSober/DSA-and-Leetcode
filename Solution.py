@@ -92,7 +92,7 @@ class Solution():
             return 0
         # split url_to_match into a list of its components
         url_to_match_split = url_to_match.split('/')[1:]
-        # split all url_patterns into a list of thier components
+        # split all url_patterns into a list of their components
         url_patterns_matches = [] # contains possible url patterns to match with input
         for pattern in url_patterns:
             url_patterns_matches.append(pattern.split('/')[1:])
@@ -102,7 +102,7 @@ class Solution():
 
         # loops through all patterns and checks rules to see if the pattern matches the url_to_match
         for pattern_components in url_patterns_matches:
-            # storse temporary parameters into outputs, if the url matches the pattern this will be the output
+            # stores temporary parameters into outputs, if the url matches the pattern this will be the output
             outputs = [] 
             # loop through each component in url_to_match and current pattern to check for matching components
             for i in range(len(url_to_match_split)):

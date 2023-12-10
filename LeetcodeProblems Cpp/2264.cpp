@@ -17,6 +17,6 @@ public:
         } else if (ans == -std::numeric_limits<double>::infinity() ) {
             return "";
         }
-        return std::to_string(static_cast<int>(std::round(ans)));
+        return std::to_string(static_cast<int>(ans));
     }
 };

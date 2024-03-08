@@ -6,13 +6,11 @@
 #         self.right = right
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
-        
         paths = []
         currpath = []
         def dfs(node):
             if not node:
                 return
-            print(currpath)
             if node.left == None and node.right == None:
                 currpath.append(node.val)
                 paths.append(currpath.copy())
@@ -23,7 +21,6 @@ class Solution:
             currpath.pop()
         dfs(root)
         ans = 0
-        print(paths)
         for path in paths:
             lst = ""
             for num in path:

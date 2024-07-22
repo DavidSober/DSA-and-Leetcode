@@ -1,0 +1,9 @@
+
+make a build dir and cd into it
+run the following
+
+cmake -G "MinGW Makefiles" ..
+mingw32-make
+
+this creates an executable 
+run that for running your compiled project

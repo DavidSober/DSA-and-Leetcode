@@ -27,7 +27,7 @@ void printRes(int result) {
 // lets you pre set args for a function and store that as a separate object
 
 // here is a simple function we will later bind
-void messsage_to_person(std::string& name, std::string& message) {
+void messsage_to_person(const std::string& name, const std::string& message) {
     std::cout << name << " my message to you is: " << message << std::endl;
 }
 

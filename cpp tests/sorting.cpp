@@ -39,7 +39,7 @@ int main() {
 
     // sorting a matrix based of custom criteria
 
-    // we will sort based off the seconds element only
+    // we will sort based off the second element only
     std::sort(matrix.begin(), matrix.end(), [](std::vector<int> a, std::vector<int> b){
         return a[1] < b[1]; 
     }); 

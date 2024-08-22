@@ -1,4 +1,7 @@
-
+# funny one liner version of sol
+class Solution:
+    def findComplement(self, num: int) -> int:
+        return int("".join(["1" if c == '0' else '0' for c in bin(num)[2:]]), 2)
 
 
 # forgot how to do this with a bitmask so used string stuff

@@ -17,29 +17,50 @@ auto AutoAdd( auto a, auto b) {
 }
 
 // you can make class templates
+// essentially you can use them to take any data type for any number of vars
+// in the class
 template<typename T>
 class GenericVAL {
     private: 
     T value_;
+    T value_2_;
 
     public:
-    GenericVAL(T value) : value_(value) {}
+    GenericVAL(T value, T value2) : value_(value), value_2_(value2) {}
 
     T getValue() {
-        return value_;
+        return value_ + value_2_;
     }
 };
 
+// regular class here you need to specify the type unlike template
 class VAL {
     private: 
     int value_;
 
     public:
-    GenericVAL(int value) : value_(value) {}
+    VAL(int value) : value_(value) {}
 
     int getValue() {
         return value_;
     }
+};
+
+// you can have many datatypes passed to a class template like this
+template<class T, class U> 
+class ManyTypeVAL {
+    private:
+        T val1_;
+        U val2_;
+    public:
+        ManyTypeVAL(T val1, U val2) : val1_(val1), val2_(val2) {}
+
+    void getVAL() {
+        std::cout << "val1 is: " << val1_ << " val2 is " << val2_ << 
+        " added together they are: " << val1_ + val2_ << std::endl;
+    }
+    
+
 };
 
 int main() {
@@ -52,6 +73,15 @@ int main() {
     // std::endl;
 
     // now we create the object of the template class
-    GenericVAL<int>* obj1 = new GenericVAL<int>(69);
-    VAL* obj1 = new VAL(60);
+    GenericVAL<int>* obj1 = new GenericVAL<int>(69, 'c'); // ascii c: 99
+    VAL* obj2 = new VAL(60);
+
+    auto genericVAL = obj1->getValue();
+    std::cout << genericVAL << std::endl;
+    
+    // we define the multi type class template
+    ManyTypeVAL<int, char>* obj3 = new ManyTypeVAL<int, char>(21, 'x');
+
+
+    obj3->getVAL(); 
 }

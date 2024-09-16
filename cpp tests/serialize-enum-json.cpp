@@ -1,5 +1,7 @@
 #include<iostream>
 
+// cannot import this until package manager like cmake and conan are configured 
+// #include <nlohmann/json.hpp>
 
 // first we get our enum
 
@@ -14,5 +16,5 @@ int main() {
 
     std::cout << "we will serialize the enum" << std::endl;
 
-
+    
 }

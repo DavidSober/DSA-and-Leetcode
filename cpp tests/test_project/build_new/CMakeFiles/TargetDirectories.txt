@@ -1,3 +1,0 @@
-C:/Users/David Sober/OneDrive/Documents/GitHub/Data-Structures-and-Algorithms-/cpp tests/test_project/build_new/CMakeFiles/test_project.dir
-C:/Users/David Sober/OneDrive/Documents/GitHub/Data-Structures-and-Algorithms-/cpp tests/test_project/build_new/CMakeFiles/edit_cache.dir
-C:/Users/David Sober/OneDrive/Documents/GitHub/Data-Structures-and-Algorithms-/cpp tests/test_project/build_new/CMakeFiles/rebuild_cache.dir

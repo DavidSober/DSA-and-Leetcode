@@ -1,10 +1,5 @@
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
-
+# BFS sol
+# apparently I was supposed to use dfs but this still worked
 # overall description. 
 # bfs through bin tree and create a cousion list 
 # we do this by looking at the children nodes grouping them by their parent
